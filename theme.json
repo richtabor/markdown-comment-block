@@ -1,0 +1,14 @@
+{
+	"custom": {
+		"markdown-comment": {
+			"color": {
+				"text": "#B4473C"
+			},
+			"typography": {
+				"fontSize": "15px",
+				"fontFamily": "monospace",
+				"lineHeight": "1.8"
+			}
+		}
+	}
+}

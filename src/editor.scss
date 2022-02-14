@@ -1,0 +1,54 @@
+.wp-block-tabor-markdown-comment {
+
+	//Set block defaults.
+	--wp--default--markdown-comment--typography--font-size: 16px;
+	--wp--default--markdown-comment--typography--line-height: 1.8;
+	--wp--default--markdown-comment--color--text: #B4473C;
+	--wp--default--markdown-comment--typography--font-family: monospace;
+
+	--fontSize: var(--wp--custom--markdown-comment--typography--font-size, var(--wp--default--markdown-comment--typography--font-size));
+	--fontFamily: var(--wp--custom--markdown-comment--typography--font-family, var(--wp--default--markdown-comment--typography--font-family));
+	--lineHeight: var(--wp--custom--markdown-comment--typography--line-height, var(--wp--default--markdown-comment--typography--line-height));
+	--color: var(--wp--custom--markdown-comment--color--text, var(--wp--default--markdown-comment--color--text));
+
+	// Override admin color in this block only.
+	--wp-admin-theme-color: var(--color);
+}
+
+.wp-block-tabor-markdown-comment {
+
+	&::before {
+		content: "%%";
+		left: -28px;
+		opacity: 0.5;
+		position: absolute;
+	}
+
+	&,
+	& p,
+	& a {
+		font-family: var(--fontFamily);
+		font-size: var(--fontSize);
+		line-height: var(--lineHeight);
+	}
+
+	&:not(.has-text-color) {
+		&,
+		p,
+		a {
+			color: var(--color) !important;
+			font-family: var(--fontFamily);
+			font-size: var(--fontSize);
+			line-height: var(--lineHeight);
+		}
+	}
+}
+
+// Tweak position of icon + label in BlockControls
+.wp-block-tabor-markdown-comment__resolve.components-button.has-icon {
+	padding-right: 16px !important;
+}
+
+.wp-block-tabor-markdown-comment__resolve.components-button.has-icon svg {
+	margin-right: 4px;
+}

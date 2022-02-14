@@ -1,0 +1,27 @@
+{
+	"apiVersion": 2,
+	"name": "tabor/markdown-comment",
+	"title": "Markdown Comment",
+	"category": "text",
+	"description": "Add a comment that does not render on the front-end.",
+        "keywords": [ "comments", "editor", "markdown"],
+	"textdomain": "markdown-comment-block",
+        "attributes": {
+                "content": {
+			"type": "string",
+			"selector": "p",
+			"__experimentalRole": "content"
+		}
+	},
+        "supports": {
+		"html": false,
+		"className": false,
+		"__experimentalSelector": "p",
+		"__unstablePasteTextInline": true,
+		"color": {
+			"background": false
+		}
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css"
+}
