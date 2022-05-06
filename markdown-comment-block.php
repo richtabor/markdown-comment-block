@@ -5,7 +5,7 @@
  * Plugin URI:        https://richtabor.com/markdown-comments?utm_source=wp-plugins&utm_medium=markdown-comment-block&utm_campaign=plugin-uri
  * Requires at least: 5.7
  * Requires PHP:      7.0
- * Version:           0.1.8
+ * Version:           0.1.9
  * Author:            RichTabor.com
  * Author URI:        https://richtabor.com/?utm_source=wp-plugins&utm_medium=markdown-comment-block&utm_campaign=author-uri
  * License:           GPL-2.0-or-later

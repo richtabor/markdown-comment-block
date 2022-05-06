@@ -1,6 +1,6 @@
 {
 	"name": "markdown-comment-block",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"description": "Add comments to posts within the editor only.",
 	"author": {
 		"name": "richtabor",
