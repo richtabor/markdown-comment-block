@@ -55,6 +55,9 @@ As a WordPress entrepreneur, designer and developer all wrapped up in one, [@ric
 
 == Changelog ==
 
+= 0.1.9 =
+* Set default control for text color
+
 = 0.1.8 =
 * Add block.json to registerBlockType
 
