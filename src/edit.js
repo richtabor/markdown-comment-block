@@ -7,7 +7,7 @@ import {
 	RichText,
 	BlockControls,
 } from '@wordpress/block-editor';
-import { ToolbarGroup, ToolbarButton, SVG, Path } from '@wordpress/components';
+import { ToolbarButton, SVG, Path } from '@wordpress/components';
 import { createBlock } from '@wordpress/blocks';
 
 /**

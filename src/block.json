@@ -13,7 +13,7 @@
 			"__experimentalRole": "content"
 		}
 	},
-        "supports": {
+    "supports": {
 		"html": false,
 		"className": false,
 		"__experimentalSelector": "p",
@@ -25,6 +25,6 @@
 			}
 		}
 	},
-	"editorScript": "file:./build/index.js",
-	"editorStyle": "file:./build/index.css"
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css"
 }

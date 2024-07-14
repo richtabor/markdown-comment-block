@@ -1,8 +1,8 @@
 === Markdown Comment Block ===
 Contributors:      richtabor
 Tags:              gutenberg, block, blocks, markdown, comments
-Tested up to:      6.0
-Stable tag:        0.1.9
+Tested up to:      6.6
+Stable tag:        1.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,7 +55,7 @@ As a WordPress entrepreneur, designer and developer all wrapped up in one, [@ric
 
 == Changelog ==
 
-= 0.1.9 =
+= 1.0.0 =
 * Set default control for text color
 
 = 0.1.8 =

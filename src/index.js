@@ -14,7 +14,7 @@ import { SVG, Path } from '@wordpress/components';
 /**
  * Internal dependencies
  */
-import metadata from '../block.json';
+import metadata from './block.json';
 import edit from './edit';
 import transforms from './transforms';
 
@@ -23,7 +23,7 @@ import transforms from './transforms';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType( 'tabor/markdown-comment', {
+registerBlockType( metadata.name, {
 	...metadata,
 	icon: (
 		<SVG fill="none" viewBox="0 0 24 24">
