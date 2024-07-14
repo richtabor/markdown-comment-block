@@ -9,20 +9,19 @@
 	"attributes": {
 		"content": {
 			"type": "string",
-			"selector": "p",
+			"selector": "span",
 			"__experimentalRole": "content"
 		}
 	},
 	"supports": {
 		"html": false,
 		"className": false,
-		"__experimentalSelector": "p",
+		"customClassName": false,
 		"__unstablePasteTextInline": true,
 		"color": {
 			"background": false,
-			"__experimentalDefaultControls": {
-				"text": true
-			}
+			"link": false,
+			"text": true
 		}
 	},
 	"editorScript": "file:./index.js",
