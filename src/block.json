@@ -4,27 +4,26 @@
 	"title": "Markdown Comment",
 	"category": "text",
 	"description": "Add a comment that does not render on the front-end.",
-        "keywords": [ "comments", "editor", "markdown"],
+	"keywords": [ "comments", "editor", "markdown" ],
 	"textdomain": "markdown-comment-block",
-        "attributes": {
-                "content": {
+	"attributes": {
+		"content": {
 			"type": "string",
-			"selector": "p",
+			"selector": "span",
 			"__experimentalRole": "content"
 		}
 	},
-        "supports": {
+	"supports": {
 		"html": false,
 		"className": false,
-		"__experimentalSelector": "p",
+		"customClassName": false,
 		"__unstablePasteTextInline": true,
 		"color": {
 			"background": false,
-			"__experimentalDefaultControls": {
-				"text": true
-			}
+			"link": false,
+			"text": true
 		}
 	},
-	"editorScript": "file:./build/index.js",
-	"editorStyle": "file:./build/index.css"
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css"
 }

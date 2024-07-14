@@ -1,5 +1,4 @@
 # Markdown Comment Block
-
  
 ![WordPress Plugin Active Installs](https://img.shields.io/wordpress/plugin/installs/markdown-comment-block?color=%23007cba&label=Active%20Installs&logo=wordpress) [![Deploy to WordPress.org](https://github.com/richtabor/markdown-comment-block/actions/workflows/deploy.yml/badge.svg)](https://github.com/richtabor/markdown-comment-block/actions/workflows/deploy.yml)
 
